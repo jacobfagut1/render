@@ -18,6 +18,10 @@ DEBUG = os.getenv('DEBUG', '0').lower() in ['true','t','1']
 
 ALLOWED_HOST = os.getenv('ALLOWED_HOST').split(' ')
 
+DATABASE_URL = os.getenv('DATABASE_URL')
+
+PYTHON_VERSION = os.getenv('PYTHON_VERSION')
+
 
 # Application definition
 
